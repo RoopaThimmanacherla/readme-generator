@@ -14,6 +14,9 @@ install inquirer@8.2.4
 
 Provide the information in the integrated terminal for all the questions and check whether the data is replicated on GENERATEDREADME.md file
 
+## References
+Google,took help from TA,tutor and referred to miniproject.
+
 ## Walkthrough Video
 
 Please access the link [here](https://drive.google.com/file/d/1k6c0Yiq6u7eGYBc_z4g4RUzpSRem0GXv/view?usp=sharing) to watch the walkthrough video.
