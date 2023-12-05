@@ -18,4 +18,4 @@ Provide the information in the integrated terminal for all the questions and che
 
 Please access the link [here](https://app.screencastify.com/v2/watch/5CXhXKHhPxgVHnOqdsEB) to watch the walkthrough video.
 
-[Link to the github repo](https://github.com/RoopaThimmanacherla/readme-generator)https://github.com/RoopaThimmanacherla/readme-generator)
+[Link to the github repo](https://github.com/RoopaThimmanacherla/readme-generator)
