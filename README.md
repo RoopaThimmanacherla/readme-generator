@@ -16,6 +16,6 @@ Provide the information in the integrated terminal for all the questions and che
 
 ## Walkthrough Video
 
-Please access the link [here]([https://app.screencastify.com/v2/watch/5CXhXKHhPxgVHnOqdsEB](https://drive.google.com/file/d/1k6c0Yiq6u7eGYBc_z4g4RUzpSRem0GXv/view?usp=sharing) to watch the walkthrough video.
+Please access the link [here](https://drive.google.com/file/d/1k6c0Yiq6u7eGYBc_z4g4RUzpSRem0GXv/view?usp=sharing) to watch the walkthrough video.
 
 [Link to the github repo](https://github.com/RoopaThimmanacherla/readme-generator)
