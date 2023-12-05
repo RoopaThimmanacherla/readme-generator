@@ -5,7 +5,7 @@ const { writeFile } = require("fs").promises;
 
 // TODO: Create an array of questions for user input
 const questions = () => {
-  return inquirer.Prompt([
+  return inquirer.prompt([
     {
       type: "input",
       name: "title",

@@ -1,5 +1,4 @@
 const licenseDetails = require("./licenseList.js");
-const licenseList = require("./licenseList.js");
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
@@ -31,46 +30,58 @@ function renderLicenseSection(license) {
     return "";
   }
   return `## License
-  This application have license[${license}]${renderLicenseLink(
+  This application have license[${license}](${renderLicenseLink(
     license
-  )}.Clicl on the link for details.`;
+  )}).Click on the link for details.`;
 }
 
 const generateTableContents = (data) => {
   if (data.license == "None") {
-    return `## Table of Contents
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Contribute](#contribute)
-  - [Tests](#tests)
-  - [Questions](#questions)`;
+    return `
+    ## Table of Contents
+  [Installation](#installation)
+
+  [Usage](#usage)
+
+  [Contribute](#contribute)
+
+  [Tests](#tests)
+
+  [Questions](#questions)`;
   } else {
-    return `## Table of Contents
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [License](#license)
-    - [Contribute](#contribute)
-    - [Tests](#tests)
-    - [Questions](#questions)`;
+    return `
+    ## Table of Contents
+  [Installation](#installation)
+
+  [Usage](#usage)
+
+  [License](#license)
+
+  [Contribute](#contribute)
+
+  [Tests](#tests)
+
+  [Questions](#questions)`;
   }
 };
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
+${renderLicenseBadge(data.license)}
  ## Description
  ${data.Description}
- ${generateTable(data)}
+ ${generateTableContents(data)}
  ## Installation
 ${data.Installation}
 ## usage
 ${data.usage}
 ${renderLicenseSection(data.license)}
-##Contribute
+## Contribute
 ${data.contribute}
-##Tests
+## Tests
 ${data.test}
-##Questions
-[Link to my github profile]https://github.com/${data.username}
+## Questions
+[Link to my github profile](https://github.com/${data.username})
 
 Email to the following id for any Questions:
 ${data.email}
